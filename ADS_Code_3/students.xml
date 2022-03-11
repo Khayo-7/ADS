@@ -1,0 +1,10 @@
+<?xml version = "1.0"standalone="no"?>
+<!DOCTYPE Students SYSTEM "StudentValidator.dtd">
+<Students>
+  <Student program="PG">
+       <FirstName> Berhanu</FirstName>
+       <SecondName>Endale</SecondName>
+       <Contact type="cell">0962103296</Contact>
+       <email>berhanu@gmail.com</email>  
+   </Student>
+</Students>

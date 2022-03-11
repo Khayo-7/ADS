@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <br>
+          <form action="conversion" method = "POST">
+            <label for ="item">  Currency   </label>
+            <input type="number" name="currValue">
+            <select name = "action">
+                <option value="BIRR_to_USD"> BIRR to USD </option>
+                <option value="USD_to_BIRR"> USD to BIRR </option>
+            </select>
+            <input type="submit">
+        </form>
+        <br>
+        <form action="conversion" method = "POST">
+            <label for ="item"> Temperature </label>
+            <input type ="number" name ="tempValue">
+                <select name = "action">
+                    <option value="CEL_to_FAH"> CEL to FAH </option>
+                    <option value="FAH_to_CEL"> FAH to CEL </option>                
+                </select>
+            <input type="submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<!ELEMENT Students (Student)*>
+<!ELEMENT Student (FirstName, SecondName, Contact, email)>
+<!ATTLIST Student AdmissionYear CDATA #REQUIRED>
+<!ATTLIST Student program CDATA  #IMPLIED>
+<!ELEMENT FisrtName (#PCDATA)*>
+<!ELEMENT SecondName (#PCDATA)*>
+<!ELEMENT Contact (#PCDATA)*>
+<!ATTLIST Contact type CDATA "cell">
+<!ELEMENT email (#PCDATA)*>
